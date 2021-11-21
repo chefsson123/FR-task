@@ -1,0 +1,97 @@
+.settings {
+  width: 100%;
+  height: 40rem;
+  background-color: rgb(247, 245, 245);
+  display: flex;
+  justify-content: center;
+}
+
+.cont {
+  width: 25%;
+  height: 60%;
+
+  margin: 4rem 1rem 0 1rem;
+}
+h2 {
+  margin: 2rem 0 0 2rem;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid black;
+
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #04aa6d;
+  color: grey;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user {
+  text-align: center;
+}
+
+.user i {
+  font-size: 10rem;
+  display: block;
+  left: 8rem;
+  color: rgb(161, 161, 161);
+}
+span {
+  margin: 0 auto;
+}
+.resend {
+  padding: 1rem 2rem;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.2s;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(110, 96, 240);
+  border: none;
+}
+
+.permission {
+  width: 80%;
+
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 1.1rem;
+}
+
+.container {
+  width: 100%;
+  height: 12rem;
+  background-color: rgb(201, 201, 201);
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.user-info {
+  width: 60%;
+  height: 50%;
+  margin: 2rem auto;
+  text-align: center;
+}

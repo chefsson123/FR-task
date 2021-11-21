@@ -1,0 +1,39 @@
+h3 {
+    margin: 0 auto;
+    width: 50%;
+
+}
+span {
+    position: relative;
+    right: 1.8rem;
+}
+
+
+.fa {
+    font-size: 24px;
+    margin: 0 0.5rem;
+    transition: 0.4s;
+    
+}
+
+
+  
+  .fa-gear:hover {
+      color: rgb(0, 156, 228);
+  }
+  .fa-trash:hover {
+    color: rgb(228, 65, 0);
+}
+
+td .fa-user-circle-o {
+    float: left;
+    font-size: 40px;
+    position: relative;
+    left: 4rem;
+    
+}
+
+td {
+    height: 5rem;
+}
+
